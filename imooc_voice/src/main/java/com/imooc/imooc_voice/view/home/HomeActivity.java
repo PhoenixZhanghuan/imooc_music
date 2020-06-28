@@ -48,6 +48,8 @@ public class HomeActivity extends BaseActivity implements View.OnClickListener{
     }
 
     private void initData() {
+
+        Integer.toString(10, 12);
     }
 
     private void initView() {

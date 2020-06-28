@@ -23,12 +23,30 @@ android {
 
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'com.android.support.test:runner:1.0.2'
     implementation this.rootProject.depsLibs.appcompat
     implementation 'com.android.support:drawerlayout:28.0.0'
+
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    //gson解析库
+    implementation rootProject.depsLibs.gson
+
+    //eventbus类库依赖
+    implementation rootProject.depsLibs.eventbus
+
+    //rxjava库
+    implementation rootProject.depsLibs.rxjava
+    implementation rootProject.depsLibs.rxandroid
+
     //基础UI库
     implementation project(':lib_common_ui')
-    androidTestImplementation 'junit:junit:4.12'
+
+    //网络请求库
+    implementation project(':lib_network')
+
+    //图片加载库
+    implementation project(':lib_image_loader')
 
 }
