@@ -1,9 +1,5 @@
 package com.imooc.imooc_voice.model;
 
-/**
- * @author zhanghuan
- */
-
 public enum CHANNEL {
 
   MY("我的", 0x01),

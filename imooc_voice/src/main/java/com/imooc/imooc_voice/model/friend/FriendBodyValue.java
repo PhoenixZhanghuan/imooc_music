@@ -1,7 +1,7 @@
 package com.imooc.imooc_voice.model.friend;
 
 import com.imooc.imooc_voice.model.BaseModel;
-import com.imooc.lib_audio.mediaplayer.model.AudioBean;
+//import com.imooc.lib_audio.mediaplayer.model.AudioBean;
 
 import java.util.ArrayList;
 
@@ -19,5 +19,5 @@ public class FriendBodyValue extends BaseModel {
   public String videoUrl;
   public String zan;
   public String msg;
-  public AudioBean audioBean;
+//  public AudioBean audioBean;
 }
